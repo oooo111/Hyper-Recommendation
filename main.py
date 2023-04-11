@@ -285,7 +285,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset_name', default='AliExpress_NL', choices=['AliExpress_NL', 'AliExpress_ES', 'AliExpress_FR', 'AliExpress_US'])
-    parser.add_argument('--dataset_path', default='//root//autodl-tmp//Multitask-Recommendation-Library//data')
+    parser.add_argument('--dataset_path', default='./data')
     parser.add_argument('--model_name', default='metaheac', choices=['singletask', 'sharedbottom', 'omoe', 'mmoe', 'ple', 'aitm', 'metaheac', 'pomoe'])
     parser.add_argument('--epoch', type=int, default=50)
     parser.add_argument('--task_num', type=int, default=2)
