@@ -1,5 +1,7 @@
 # Hyper-Recommendation
 
+The research point of this project is multi-task learning in the recommendation system. By introducing preference vectors, multiple tasks can be optimized simultaneously and hope to achieve Pareto optimality. The basic idea is that the parameters of the Gate are provided by the hypernetwork. The input of the hypernetwork is a set of preference vectors (1×task_num), and the output is the weight of the Gate.
+
 ## Existing problems
 - The preference vector cannot reach Pareto optimality, and behaves as a process of continuous Pareto improvement.
 
